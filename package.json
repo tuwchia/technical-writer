@@ -1,0 +1,21 @@
+{
+  "name": "technical-writer",
+  "version": "1.0.0",
+  "description": "A technical writer agents that empowers your writing and spreads the words",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "serve": "NODE_ENV=dev nodemon dist/index.js",
+    "watch": "parcel watch",
+    "build": "parcel build src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "parcel": "^2.16.1"
+  }
+}
